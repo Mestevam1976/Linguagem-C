@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1680632023 source:/media/marcio/0254C86154C858D5/Certificados Udemy/Linguagem C/Somador/main.c
+	<stdio.h>
+	<stdlib.h>
+
