@@ -6,12 +6,12 @@ void limpar_entrada()
 {
     char c;
     while ((c = getchar()) != '\n' && c != EOF) {}
-
 }
 
-void ler_texto(char *buffer, int length) {
- fgets(buffer, length, stdin);
- strtok(buffer, "\n");
+void ler_texto(char *buffer, int length)
+{
+    fgets(buffer, length, stdin);
+    strtok(buffer, "\n");
 }
 
 main()
@@ -43,7 +43,6 @@ main()
     limpar_entrada();
     ler_texto(nome2, 80);
 
-
     /* Saída de Dados: */
     printf("----------SAÍDA DE DADOS-----------\n");
     printf("IDADE = %d\n", idade1);
@@ -55,7 +54,6 @@ main()
     printf("SALARIO = %.2lf\n", salario2);
     printf("ALTURA = %.2lf\n", altura2);
     printf("NOME = %s\n", nome2);
-
 
     return 0;
 }
