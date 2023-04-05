@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1680719117 source:/media/marcio/0254C86154C858D5/Certificados Udemy/Linguagem C/Exercicio_03/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
